@@ -14,11 +14,11 @@ The main objective is to explore whether trader behavior and profitability chang
 
 ## Project Files
 
-- [bitcoin_sentiment_analysis.py](C:\Users\Dell\Documents\skills\codex\Assignmentpythondeveloper\bitcoin_sentiment_analysis.py)
+- [bitcoin_sentiment_analysis.py](basepath+\bitcoin_sentiment_analysis.py)
   - Main analysis script.
-- [fear_greed_index.csv](C:\Users\Dell\Documents\skills\codex\Assignmentpythondeveloper\fear_greed_index.csv)
+- [fear_greed_index.csv](basepath +\fear_greed_index.csv)
   - Sentiment dataset.
-- [historical_data.csv](C:\Users\Dell\Documents\skills\codex\Assignmentpythondeveloper\historical_data.csv)
+- [historical_data.csv](basepath+\historical_data.csv)
   - Trader dataset.
 
 
@@ -193,12 +193,6 @@ Run the script from the project folder:
 python bitcoin_sentiment_analysis.py
 ```
 
-If your system uses the Python launcher:
-
-```powershell
-py bitcoin_sentiment_analysis.py
-```
-
 
 ## Required Python Libraries
 
@@ -224,30 +218,6 @@ This output can be used directly for:
 - trading strategy exploration
 - sentiment-based performance comparison
 
-
-## Example Insights You Can Discuss
-
-From the generated outputs, you can answer questions such as:
-
-- Do traders perform better during fear or greed?
-- Is win rate higher in `Extreme Fear` or `Extreme Greed`?
-- Are traders more active during bullish sentiment?
-- Does larger trade size lead to better or worse realized PnL?
-- Which coins perform best under different sentiment regimes?
-- Which traders are consistently profitable across sentiment conditions?
-
-
-## Notes
-
-- The script uses the actual column names present in the provided CSV files.
-- Sentiment is treated as a five-level ordered category:
-  - `Extreme Fear`
-  - `Fear`
-  - `Neutral`
-  - `Greed`
-  - `Extreme Greed`
-- The merge is performed on trade date and sentiment date.
-- All outputs are saved automatically; no manual export step is required.
 
 
 ## Submission Summary
