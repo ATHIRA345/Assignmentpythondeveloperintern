@@ -1,0 +1,28 @@
+Bitcoin Trader Performance vs Market Sentiment
+================================================
+
+Overall Summary
+- Total trades analyzed: 211218
+- Unique traders: 32
+- Total PnL: 10254486.95
+- Average PnL per trade: 48.5493
+- Win rate: 41.12%
+- Profit factor: 4.4775
+- Max drawdown: -443038.35
+
+Key Findings
+- Highest average PnL sentiment: Extreme Greed (67.8929)
+- Highest win rate sentiment: Extreme Greed (46.49%)
+- Top trader by total PnL: 0xb1231a4a2dd02f2276fa3c5e2a2f3436e6bfed23 (2143382.60)
+- Top coin by total PnL: @107 (2783912.92)
+
+Generated Files
+- merged_trader_sentiment.csv
+- overall_metrics.csv
+- sentiment_metrics.csv
+- direction_metrics.csv
+- trader_metrics.csv
+- coin_metrics.csv
+- daily_metrics.csv
+- correlation_matrix.csv
+- plots/*.png
